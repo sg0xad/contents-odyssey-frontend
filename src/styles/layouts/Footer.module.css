@@ -1,0 +1,48 @@
+.footer {
+    height:300px;
+    width:100vw;
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    overflow-x: hidden;
+}
+
+.footerTitle {
+    font-size: 60px
+}
+
+.footerInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top:35px;
+    height: 150px;
+}
+
+.footerInfo div {
+    font-size: 12px;
+}
+
+.quickLink {
+    grid-column: span 2;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+}
+
+.quickLink a {
+    color:black;
+    text-decoration: none;
+    font-size:12px;
+}
+
+.copyright {
+    grid-column: span 2;
+    align-self: center;
+    font-size: 12px;
+}

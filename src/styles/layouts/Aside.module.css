@@ -1,0 +1,24 @@
+aside {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+aside > div {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    width: 300px;
+    height: 60px;
+    cursor: pointer;
+}
+
+aside > div:hover {
+    background-color: rgb(209, 209, 209);
+}
+
+aside img {
+    width: 20%;
+    height: 50%;
+}

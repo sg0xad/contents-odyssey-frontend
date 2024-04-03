@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    height:700px;
+}
+
+.title img {
+    width:280px;
+    cursor:pointer;
+}
+
+.idWrapper, .pwWrapper, .pwConfirmWrapper, .nameWrapper, .birthdayWrapper {
+    width:450px;
+    height:40px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius:5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputId, .inputPw, .inputPwConfirm, .inputName, .inputBirthday{
+    width:400px;
+    height:30px;
+    outline: none;
+    border: none;
+    font-size:16px;
+}
+
+.idIcon, .pwIcon, .nameIcon, .birthdayIcon {
+    width:30px;
+    width:30px;
+}
+
+.pwWrapper {
+    position:relative; 
+    bottom:1px;
+}
+
+.pwConfirmWrapper {
+    position: relative;
+    bottom:2px;
+}
+
+.nameWrapper {
+    position: relative;
+    top: 20px;
+}
+
+.birthdayWrapper {
+    position: relative;
+    top:19px;
+}
+
+.inputId:focus::placeholder, .inputPw:focus::placeholder, .inputPwConfirm:focus::placeholder, .inputName:focus::placeholder, .inputBirthday:focus::placeholder  {
+    color:white;
+}
+
+.inputPwConfirm {
+    position:relative;
+    left:5px;
+}
+
+
+.pwConfirmIcon {
+    width:25px;
+    height:25px;
+    position: relative;
+    left:3px;
+}
+
+.signUp {
+    width:200px;
+    height:50px;
+    background-color: #4C4C4C;
+    color:white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+    font-weight: 600;
+    align-self: center;
+    cursor:pointer;
+    position:relative;
+    top:30px;
+}
+

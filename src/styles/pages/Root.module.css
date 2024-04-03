@@ -1,0 +1,26 @@
+header {
+    height: 200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    justify-items: center;
+}
+
+.title > h1 {
+    font-size: 85px;
+    margin: 40px 0;
+}
+
+.title > h2 {
+    margin-left: 13px;
+}
+
+.loginContainer {
+    height: 430px;
+    width: 450px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 30px;
+}
+

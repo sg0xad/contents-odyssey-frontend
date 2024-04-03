@@ -1,0 +1,148 @@
+.wrapper {
+    width: 900px;
+    height:100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titleInput {
+    margin-top: 20px;
+    height:80px;
+    width:830px;
+    font-size:40px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+
+.line {
+    width:80px;
+    height:7px;
+    background-color: rgb(73, 80, 87);
+    align-self: flex-start;
+    margin-left:33px;
+    margin-top:10px;
+}
+
+.tagInput {
+    margin-top:10px;
+    width:830px;
+    height:27px;
+    font-size:15px;
+    outline: none;
+    border:none;
+}
+
+.tagList {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.tagList > li {
+    padding: 0px 10px;
+    height:30px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    display:flex;
+    align-items: center;
+}
+
+.tagDelete {
+    width:20px;
+    cursor: pointer;
+}
+
+.editorMenu {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin:10px 0px;
+}
+
+.editorMenu li {
+    cursor:pointer;
+    font-weight: 600;
+}
+
+.editorMenu img {
+    width:25px; 
+}
+
+.contents {
+    width:830px;
+    height:675px;
+    font-size:17px;
+    border:none;
+    outline: none;
+    margin-top:10px;
+}
+
+.navWrapper {
+    width:100%;
+    height:70px;
+    min-height: 70px;
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    width:95%;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+    margin:0;
+
+}
+
+.nav li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back {
+    font-size:18px;
+    background-color: white;
+    display: flex;
+    width:85px;
+    height:40px;
+}
+
+.back:hover{
+    filter:brightness(95%);
+}
+
+.back > img {
+    width:23px;
+}
+
+.post > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:120px;
+    height:40px;
+    background-color: #646464;
+    color:white;
+    border-radius: 15px;
+}
+
+.post > div:hover {
+    filter:brightness(110%);
+}
+

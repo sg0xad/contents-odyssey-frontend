@@ -1,0 +1,106 @@
+.loginForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+#id, #password {
+    border: solid 1px rgb(224, 224, 224);
+    padding: 10px;
+    height: 30px;
+    width: 330px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 15px;
+}
+
+#id:focus::placeholder, #password:focus::placeholder {
+    color: white;
+}
+
+.loginBtn {
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.loginBtn:hover {
+    filter: brightness(110%);
+}
+
+.googleLogin {
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 133, 244);
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.googleLogin:hover {
+    filter: brightness(110%);
+}
+
+.naverLogin {
+    width: 350px;
+    height: 45px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 199, 90);
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.naverLogin:hover {
+    filter: brightness(110%);
+}
+
+.line {
+    width: 448px;
+    border-top: solid 1px rgb(214, 214, 214);
+    margin-top: 10px;
+}
+
+.findPassword {
+    margin-top:5px;
+    color: rgb(66, 103, 223);
+    text-decoration: none;
+    font-weight: 550;
+    font-size:14px;
+}
+
+.signUp {
+    font-weight:550;
+    cursor:pointer;
+    width:200px;
+    height:40px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(177, 177, 177);
+}
+
+.signUp:hover {
+    filter: brightness(90%);
+}

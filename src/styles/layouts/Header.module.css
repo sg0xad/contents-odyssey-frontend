@@ -1,0 +1,93 @@
+nav {
+    height:60px;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    box-shadow: 0px 10px 3px -10px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr 30fr 1fr 1fr 1fr 2fr;
+
+}
+
+.navTitle {
+    margin-left:20px;
+    width:203px;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+.navList {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    gap:30px;
+    margin: 0px;
+    padding: 0;
+    width:700px;
+  
+}
+
+
+.navList li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:600;
+    font-size: 20px;
+    cursor: pointer;
+    height: 59px;
+    width: 100px;   
+}
+
+.navList li img {
+    width:26px;
+}
+
+
+.navList li:hover {
+    border-bottom: solid 2px rgb(107, 107, 107);
+}
+
+.navAlarm {
+    width:25px;
+    margin-left: 10px;
+    margin-top:18px;
+    cursor: pointer;
+}
+
+.navSearch {
+    width:25px;
+    margin: 0 10px;
+    margin-top:18px;
+    cursor: pointer;
+}
+
+.write {
+    width: 80px;
+    height:27px;
+    border: solid 1px black;
+    border-radius: 50px;
+    margin-top:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.write:hover {
+    background-color: black;
+    color:white;
+}
+
+.logout {
+    margin-top:22px;
+    margin-right:18px;
+    margin-left:18px;
+    color:rgb(94, 94, 94);
+    display: flex;
+    white-space: nowrap;
+    cursor:pointer;
+}
+
+.logout:hover {
+    filter:brightness(50%);
+}
